@@ -5,33 +5,31 @@
     
     .header {
         grid-area: header;
-    background-color: brown;
     display:inline-block;
     
     }
     
     .left-menu {
         grid-area: left-menu;
-        background-color: blueviolet;
+   
     }
     
     .main{
         grid-area: main;
-        background-color: coral;
+   
     }
     
     .right-menu{
         grid-area: right-menu;
-        background-color: aqua;
+
     }
     
     .shortcuts{
         grid-area: shortcuts;
-        background-color: blue;
+
     }
     .container {
         height: 100vh;
-        background-color: crimson;
         display: grid;
         grid-template:
        "header header header header" auto
