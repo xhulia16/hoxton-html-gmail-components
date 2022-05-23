@@ -28,6 +28,7 @@
     }
     .left-menu {
         grid-area: left-menu;
+        display:grid;
    
     }
     
